@@ -23,6 +23,13 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.xml.sax.SAXException;
 
+/**
+ * http://dblp.org/xml/release/
+ * dblp-2018-01-01.xml.gz
+ * 
+ * @author Ni Peng
+ *
+ */
 public class DblpPreprocessor {
 	
 	private DblpInterface dblp;

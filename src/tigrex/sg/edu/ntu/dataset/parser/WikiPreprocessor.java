@@ -12,6 +12,12 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 
+/**
+ * http://konect.uni-koblenz.de/networks/wikipedia-growth
+ * 
+ * @author Ni Peng
+ *
+ */
 public class WikiPreprocessor {
 	
 	final private Logger logger = LoggerFactory.getLogger(WikiPreprocessor.class);
@@ -88,7 +94,6 @@ public class WikiPreprocessor {
 	public static void main(String[] args) {
 	
 		WikiPreprocessor parser = new WikiPreprocessor();
-//		String path = "raw/out.wikipedia-growth";
 		String path = "raw/wikipedia-growth.txt";
 
 		parser.processFile(path);

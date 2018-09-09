@@ -19,6 +19,12 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 
+/**
+ * https://www.kaggle.com/PromptCloudHQ/imdb-data#IMDB-Movie-Data.csv
+ * 
+ * @author Ni Peng
+ *
+ */
 public class ImdbPreprocessor {
 	
 	private Set<String> vertices;

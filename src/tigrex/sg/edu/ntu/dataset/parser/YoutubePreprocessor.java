@@ -12,6 +12,12 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 
+/**
+ * http://socialnetworks.mpi-sws.org/data-wosn2008.html
+ * 
+ * @author Ni Peng
+ *
+ */
 public class YoutubePreprocessor {
 	
 	final private Logger logger = LoggerFactory.getLogger(YoutubePreprocessor.class);
@@ -85,7 +91,7 @@ public class YoutubePreprocessor {
 	public static void main(String[] args) {
 	
 		YoutubePreprocessor parser = new YoutubePreprocessor();
-		String path = "raw/youtube-growth-sorted.txt";
+		String path = "raw/youtube-d-growth.txt";
 		parser.processFile(path);
 
 	}

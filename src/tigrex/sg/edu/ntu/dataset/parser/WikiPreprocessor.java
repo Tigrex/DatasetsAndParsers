@@ -13,7 +13,7 @@ import org.slf4j.LoggerFactory;
 
 
 /**
- * http://konect.uni-koblenz.de/networks/wikipedia-growth
+ * http://socialnetworks.mpi-sws.org/data-wosn2008.html
  * 
  * @author Ni Peng
  *
